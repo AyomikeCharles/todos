@@ -1,0 +1,183 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+.inner-modal{
+    background-color: #fff;
+    box-shadow: 2px 2px 3px 3px rgba(0, 0, 25, 0.8);
+    width: 40%;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 100px auto;
+}
+
+
+body{
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: 'Poppins', sans-serif;
+    color: rgba(0, 0, 25, 0.8);
+}
+
+.modal{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transition: 1s;
+}
+
+.icon{
+    margin: 0 5px;
+}
+
+.icon:hover{
+    cursor: pointer;
+}
+
+.form{
+    margin: 0 auto;
+    width: 50%;
+}
+
+.form > div {
+    margin: 15px auto;
+}
+
+input{
+    border: none;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 25px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#submit{
+    color: #fff;
+    background-color: rgba(0, 0, 25, 0.8);
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.task-holder{
+    background-color: #fff;
+    width: 40%;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left:5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.count{
+    background-color: #fff;
+    width: 20px;
+    margin-right:5px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.main-task-holder{
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+}
+
+.banner{
+    margin: 20px auto;
+    width: 120px;
+    font-size: 20px;
+}
+
+.submit{
+    margin: 20px auto;
+    width: 100px;
+}
+
+.task{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.tasks-info{
+    width: 80%;
+}
+
+.actions{
+    width: 11%;
+
+}
+
+.deadline{
+    font-size: 13px;
+}
+
+.close-modal{
+    margin: 20px;
+    font-size: 25px;
+    color: #fff;
+    padding: 5px;
+    width: 10px;
+}
+
+.plus-circle{
+    font-size: 40px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+
+
+@media(max-width: 991.98px){
+	.task-holder{
+        width: 55%;
+    }
+
+    .inner-modal{
+        width: 50%;
+    }
+
+    .actions{
+        width: 20%;
+    
+    }
+
+}
+
+
+@media(max-width: 795.98px){
+    .task-holder{
+        width: 70%;
+    }
+
+    .inner-modal{
+        width: 70%;
+    }
+
+    .actions{
+        width: 20%;
+    
+    }
+
+}
+
+
+@media(max-width: 575.98px){
+    .task-holder{
+        width: 80%;
+    }
+
+    .inner-modal{
+        width: 80%;
+        padding: 5px;
+    }
+    
+    .actions{
+        width: 20%;
+    
+    }
+}
+
+
